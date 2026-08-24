@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hopkins Brains Bots and Behavior Lab (B3) studies learning from human data to understand and predict human behavior for embodied intelligence.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Brains, Bots &amp; Behavior Lab">
+    <meta property="og:title" content="Brains, Bots &amp; Behavior Lab">
+    <meta property="og:description" content="Hopkins Brains Bots and Behavior Lab (B3) studies learning from human data to understand and predict human behavior for embodied intelligence.">
+    <meta property="og:url" content="http://b3.cs.jhu.edu/">
+    <meta property="og:image" content="https://raw.githubusercontent.com/brains-bots-n-behavior/brains-bots-n-behavior.github.io/main/assets/b3-social-preview.png">
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/brains-bots-n-behavior/brains-bots-n-behavior.github.io/main/assets/b3-social-preview.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Brains, Bots &amp; Behavior Lab">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Brains, Bots &amp; Behavior Lab">
+    <meta name="twitter:description" content="Hopkins Brains Bots and Behavior Lab (B3) studies learning from human data to understand and predict human behavior for embodied intelligence.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/brains-bots-n-behavior/brains-bots-n-behavior.github.io/main/assets/b3-social-preview.png">
+    <meta name="twitter:image:alt" content="Brains, Bots &amp; Behavior Lab">
+    <title>Hopkins Brains Bots and Behavior Lab (B3)</title>
+    <link rel="canonical" href="http://b3.cs.jhu.edu/">
+    <link rel="preload" href="assets/jhu-campus.jpg" as="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,600;8..144,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260822-people-groups-v2">
+  </head>
+  <body>
+    <section class="intro-loader" data-intro-loader aria-label="Hopkins Brains Bots and Behavior Lab animated intro">
+      <img src="assets/jhu-campus.jpg" alt="" class="intro-loader-image" aria-hidden="true">
+      <div class="intro-loader-shade" aria-hidden="true"></div>
+      <canvas class="intro-canvas" data-intro-canvas aria-hidden="true"></canvas>
+      <div class="intro-title-3d" aria-hidden="true">
+        <span>Johns Hopkins University</span>
+        <strong>Brains Bots<br>and Behavior Lab</strong>
+      </div>
+      <p class="sr-only">Hopkins Brains Bots and Behavior Lab</p>
+      <button class="intro-skip" type="button" data-intro-skip>Enter Site</button>
+    </section>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Brains, Bots and Behavior Lab home">
+        <span class="brand-logo" aria-hidden="true">
+          <span class="brand-logo-window">
+            <img src="assets/b3lablogo.png?v=transparent" alt="">
+          </span>
+        </span>
+        <span class="brand-text">
+          <strong>Brains, Bots &amp; Behavior Lab</strong>
+          <span>Johns Hopkins</span>
+        </span>
+      </a>
+
+      <a class="jhu-wordmark" href="https://www.cs.jhu.edu/" aria-label="Johns Hopkins University Computer Science">
+        <span>Johns Hopkins University</span>
+        <strong>Computer Science</strong>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary navigation" data-nav>
+        <a href="#research">Research</a>
+        <a href="#people">People</a>
+        <a href="#videos">Videos</a>
+        <a href="#publications">Publications</a>
+        <a href="#news">News</a>
+        <a href="#join">Contact Us</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <img src="assets/jhu-campus.jpg" alt="Johns Hopkins campus with spring blossoms" class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow hero-affiliation">Brains Bots and Behavior (B<sup>3</sup>) Lab</p>
+          <h1 id="hero-title">Learning from human data for embodied intelligence.</h1>
+          <div class="hero-actions" aria-label="Hero links">
+            <a class="button primary" href="#research">Explore Research</a>
+            <a class="button secondary" href="#join">Work With Us</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Lab summary">
+        <div>
+          <p>
+            We bring together disciplines across observational and interactive learning to develop
+            embodied systems that can reason about people, learn from their interactions, and
+            operate around them.
+          </p>
+        </div>
+        <div class="b3-trio" aria-label="Brains, bots, and behavior">
+          <article class="trio-tile brain-tile">
+            <svg viewBox="0 0 96 96" role="img" aria-label="Brain">
+              <path class="trio-fill" d="M34 18c-8 0-14 6-14 14 0 2 .4 4 1.2 5.8A16 16 0 0 0 16 50c0 8 6 15 14 16.4A18 18 0 0 0 48 80V18H34Z"></path>
+              <path class="trio-fill" d="M62 18c8 0 14 6 14 14 0 2-.4 4-1.2 5.8A16 16 0 0 1 80 50c0 8-6 15-14 16.4A18 18 0 0 1 48 80V18h14Z"></path>
+              <path class="trio-line" d="M32 35c6-6 12-4 16 1m-18 16c5-5 12-4 18 2m16-19c-6-6-12-4-16 1m18 16c-5-5-12-4-18 2M48 24v50"></path>
+            </svg>
+            <span>Brains</span>
+          </article>
+          <article class="trio-tile bot-tile">
+            <svg viewBox="0 0 96 96" role="img" aria-label="Bot">
+              <rect class="trio-fill" x="22" y="30" width="52" height="40" rx="10"></rect>
+              <path class="trio-line" d="M48 22v8m-17 0-7-8m41 8 7-8M31 74v6m34-6v6"></path>
+              <circle class="trio-dot" cx="38" cy="49" r="4"></circle>
+              <circle class="trio-dot" cx="58" cy="49" r="4"></circle>
+              <path class="trio-line" d="M40 61c5 4 11 4 16 0"></path>
+            </svg>
+            <span>Bots</span>
+          </article>
+          <article class="trio-tile behavior-tile">
+            <svg viewBox="0 0 96 96" role="img" aria-label="Behavior">
+              <path class="trio-line" d="M18 66c12-20 25-10 33-24 8-13 18-14 27-5"></path>
+              <circle class="trio-fill" cx="22" cy="66" r="7"></circle>
+              <circle class="trio-fill" cx="50" cy="44" r="7"></circle>
+              <circle class="trio-fill" cx="76" cy="36" r="7"></circle>
+              <path class="trio-line" d="M30 74l8 7m-17-5-5 9m39-33 8 7m-17-5-5 9m39-20 8 7m-16-5-4 9"></path>
+            </svg>
+            <span>Behavior</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section research-section" id="research" aria-labelledby="research-heading">
+        <div class="section-heading">
+          <p class="eyebrow section-title" id="research-heading">Research</p>
+          <h2 class="section-subtitle">Human behavior as a foundation for intelligent action.</h2>
+        </div>
+
+        <div class="research-path" aria-label="Research themes from observation to action">
+          <article class="research-story">
+            <figure class="research-story-media">
+              <img src="assets/research/watch-robot-cooking-hands.png" alt="Dexterous robot with articulated hands observing a person preparing food in a lab kitchen" loading="lazy" decoding="async">
+              <span class="research-story-number" aria-hidden="true">01</span>
+            </figure>
+            <div class="research-story-copy">
+              <p class="research-story-kicker">Watch</p>
+              <h3>Learning From Human Data</h3>
+              <p>
+                Models that learn from demonstrations, video, motion, gaze, language, and interaction
+                traces to capture the what, how, and why of human interactions.
+              </p>
+            </div>
+          </article>
+          <article class="research-story">
+            <figure class="research-story-media">
+              <img src="assets/research/understand-human-behavior.png" alt="Hands and objects tracked in a behavior understanding study" loading="lazy" decoding="async">
+              <span class="research-story-number" aria-hidden="true">02</span>
+            </figure>
+            <div class="research-story-copy">
+              <p class="research-story-kicker">Understand</p>
+              <h3>Behavior Understanding</h3>
+              <p>
+                Representations for goals, intent, preferences, affordances, and context in everyday
+                behavior, for enabling multimodal predictions.
+              </p>
+            </div>
+          </article>
+          <article class="research-story">
+            <figure class="research-story-media">
+              <img src="assets/research/predict-future-hand-poses-v2.png" alt="Smart glasses view with a sequence of translucent future hand-pose predictions reaching toward an object" loading="lazy" decoding="async">
+              <span class="research-story-number" aria-hidden="true">03</span>
+            </figure>
+            <div class="research-story-copy">
+              <p class="research-story-kicker">Predict</p>
+              <h3>Embodied Prediction</h3>
+              <p>
+                Forecasting human motion, object changes, scene variations through structured
+                predictive models so that AI systems know how and when to assist humans.
+              </p>
+            </div>
+          </article>
+          <article class="research-story">
+            <figure class="research-story-media">
+              <img src="assets/research/act-robot-handoff.png" alt="Robot handing a small object to a person" loading="lazy" decoding="async">
+              <span class="research-story-number" aria-hidden="true">04</span>
+            </figure>
+            <div class="research-story-copy">
+              <p class="research-story-kicker">Act</p>
+              <h3>Robots Around People</h3>
+              <p>
+                Closing the loop from learned predictive models to physical systems capable of
+                dexterous and long-horizon mobile manipulation while acting with awareness of people,
+                tasks, uncertainty, and shared spaces.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section class="section people-section" id="people" aria-labelledby="people-heading">
+        <div class="section-heading compact">
+          <p class="eyebrow section-title" id="people-heading">People</p>
+        </div>
+        <div class="people-layout">
+          <article class="person-card pi-card">
+            <img class="person-photo" src="assets/people/homanga-bharadhwaj.webp" alt="Homanga Bharadhwaj">
+            <div>
+              <p class="small-label">Principal Investigator</p>
+              <h3>Homanga Bharadhwaj</h3>
+              <p>
+                Assistant Professor of Computer Science<br>
+                Johns Hopkins University
+              </p>
+              <div class="person-links">
+                <a href="https://homangab.github.io/">Website</a>
+                <a href="https://www.cs.jhu.edu/faculty/homanga-bharadhwaj/">JHU Profile</a>
+                <a href="#publications">Research</a>
+              </div>
+            </div>
+          </article>
+
+          <div class="students-panel">
+            <section class="students-group" aria-labelledby="phd-students-heading">
+              <div class="students-heading">
+                <h3 class="students-heading-title" id="phd-students-heading">PhD Students</h3>
+              </div>
+              <div class="student-grid">
+                <article class="student-card">
+                  <img class="student-photo" src="assets/people/carter-ung.jpeg" alt="Carter Ung">
+                  <p class="small-label">1st Year CS PhD</p>
+                  <h4>Carter Ung</h4>
+                  <p class="student-links"><a href="https://carteruh.github.io/">Website</a></p>
+                </article>
+                <article class="student-card">
+                  <img class="student-photo" src="assets/people/yash-jangir.png" alt="Yash Jangir">
+                  <p class="small-label">1st Year CS PhD</p>
+                  <h4>Yash Jangir</h4>
+                  <p class="student-links"><a href="https://offjangir.github.io/">Website</a></p>
+                </article>
+                <article class="student-card">
+                  <img class="student-photo" src="assets/people/michael-suyu-ye.jpg" alt="Michael (Suyu) Ye">
+                  <p class="small-label">1st Year CS PhD</p>
+                  <h4>Michael (Suyu) Ye</h4>
+                  <p class="student-note">Co-advised by Tianmin Shu.</p>
+                  <p class="student-links"><a href="https://suyuye.com/">Website</a></p>
+                </article>
+              </div>
+            </section>
+
+            <section class="students-group" aria-labelledby="bs-ms-students-heading">
+              <div class="students-heading">
+                <h3 class="students-heading-title" id="bs-ms-students-heading">BS / MS Students</h3>
+              </div>
+              <div class="student-grid">
+                <article class="student-card">
+                  <img class="student-photo" src="assets/people/joanna-cheng.jpg" alt="Joanna Cheng">
+                  <h4>Joanna Cheng</h4>
+                  <p class="student-links"><a href="https://scholar.google.com/citations?user=Q225cH0AAAAJ&amp;hl=en">Google Scholar</a></p>
+                </article>
+                <article class="student-card">
+                  <div class="student-photo student-photo-placeholder" role="img" aria-label="Photo placeholder for Yuqi Tang"><span aria-hidden="true">YT</span></div>
+                  <h4>Yuqi Tang</h4>
+                </article>
+                <article class="student-card">
+                  <img class="student-photo" src="assets/people/daniel-guo.png" alt="Daniel Guo">
+                  <h4>Daniel Guo</h4>
+                </article>
+              </div>
+            </section>
+
+            <section class="students-group" aria-labelledby="phd-collaborators-heading">
+              <div class="students-heading">
+                <h3 class="students-heading-title" id="phd-collaborators-heading">PhD Student Collaborators</h3>
+              </div>
+              <div class="student-grid collaborator-grid">
+                <article class="student-card">
+                  <img class="student-photo" src="assets/people/jeremy-zhang.png" alt="Jeremy Zhang">
+                  <p class="small-label">CS PhD</p>
+                  <h4>Jeremy Zhang</h4>
+                  <p class="student-links"><a href="https://zhang-jiaming.com/">Website</a></p>
+                </article>
+                <article class="student-card">
+                  <img class="student-photo" src="assets/people/gokul-kannan.jpeg" alt="Gokul Kannan">
+                  <p class="small-label">ECE PhD</p>
+                  <h4>Gokul Kannan</h4>
+                  <p class="student-links"><a href="https://g0kul6.github.io/">Website</a></p>
+                </article>
+                <article class="student-card">
+                  <img class="student-photo" src="assets/people/william-paul.jpg" alt="William Paul">
+                  <p class="small-label">CS PhD</p>
+                  <h4>William Paul</h4>
+                  <p class="student-links"><a href="https://aiem.jhu.edu/people/william-paul/">Profile</a></p>
+                </article>
+                <article class="student-card">
+                  <img class="student-photo" src="assets/people/shravan-chaudhari.jpeg" alt="Shravan Chaudhari">
+                  <p class="small-label">CS PhD</p>
+                  <h4>Shravan Chaudhari</h4>
+                  <p class="student-links"><a href="https://shra1-25.github.io/">Website</a></p>
+                </article>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="section videos-section" id="videos" aria-labelledby="videos-heading">
+        <div class="section-heading">
+          <p class="eyebrow section-title" id="videos-heading">Videos</p>
+          <p>
+            Video highlights of past research from the PI connecting human video, prediction, and
+            robot action.
+          </p>
+        </div>
+
+        <div class="video-grid" aria-label="Selected project videos">
+          <article class="video-card">
+            <div class="video-media">
+              <video autoplay muted loop playsinline controls preload="metadata">
+                <source src="https://homangab.github.io/track2act/glimpse_edited1.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="video-copy">
+              <p class="small-label">ECCV 2024</p>
+              <h3>Track2Act</h3>
+              <p>Point-track prediction from internet videos for zero-shot robot manipulation.</p>
+              <p class="video-links"><a href="https://homangab.github.io/track2act/">Project</a><a href="https://homangab.github.io/track2act/track2act.pdf">Paper</a></p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-media">
+              <video autoplay muted loop playsinline controls preload="metadata">
+                <source src="https://objectforesight.github.io/videos/teaser_web.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="video-copy">
+              <p class="small-label">ECCV 2026</p>
+              <h3>ObjectForesight</h3>
+              <p>Future 3D object trajectory prediction from egocentric human videos.</p>
+              <p class="video-links"><a href="https://objectforesight.github.io/">Project</a><a href="https://arxiv.org/abs/2601.05237">Paper</a></p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-media">
+              <video autoplay muted loop playsinline controls preload="metadata">
+                <source src="https://motionforesight.github.io/videos/motionforesight-qualitative-grid.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="video-copy">
+              <p class="small-label">arXiv 2026</p>
+              <h3>MotionForesight</h3>
+              <p>Future 3D scene-flow prediction from short monocular human-interaction videos.</p>
+              <p class="video-links"><a href="https://motionforesight.github.io/">Project</a><a href="https://arxiv.org/abs/2607.16192">Paper</a></p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-media">
+              <video autoplay muted loop playsinline controls preload="metadata">
+                <source src="https://www.chenbao.tech/handsonvlm/media/video_wall_output.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="video-copy">
+              <p class="small-label">TMLR 2025</p>
+              <h3>HandsOnVLM</h3>
+              <p>Predicting future interaction trajectories of human hands in a scene given high-level colloquial task specifications in the form of natural language.</p>
+              <p class="video-links"><a href="https://www.chenbao.tech/handsonvlm/">Project</a><a href="https://www.chenbao.tech/handsonvlm/media/handsonvlm.pdf">Paper</a></p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-media">
+              <video autoplay muted loop playsinline controls preload="metadata">
+                <source src="assets/videos/aina-teaser-comp.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="video-copy">
+              <p class="small-label">ICRA 2026</p>
+              <h3>AINA</h3>
+              <p>Learning multi-fingered robot manipulation policies directly by watching videos of humans with Aria glasses on, without any robot interaction/tele-operation/simulation data.</p>
+              <p class="video-links"><a href="https://aina-robot.github.io/">Project</a><a href="https://arxiv.org/pdf/2511.16661">Paper</a></p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-media">
+              <video autoplay muted loop playsinline controls preload="metadata">
+                <source src="assets/videos/spider.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="video-copy">
+              <p class="small-label">IROS 2026</p>
+              <h3>SPIDER</h3>
+              <p>A physics-based retargeting framework to transform and augment kinematic-only human demonstrations to dynamically feasible robot trajectories at scale.</p>
+              <p class="video-links"><a href="https://jc-bao.github.io/spider-project/">Project</a><a href="https://arxiv.org/abs/2511.09484">Paper</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section publications-section" id="publications" aria-labelledby="publications-heading">
+        <div class="section-heading">
+          <p class="eyebrow section-title" id="publications-heading">Publications</p>
+        </div>
+
+        <div class="pub-list" aria-label="Selected B cubed lab publications">
+          <article class="publication">
+            <p class="pub-year">arXiv 2026</p>
+            <div>
+              <h3><a href="https://motionforesight.github.io/">MotionForesight: Re-purposing Video Models for Future 3D Scene-Flow Prediction</a></h3>
+              <p>Homanga Bharadhwaj<sup>*</sup>, Yash Jangir<sup>*</sup>.</p>
+              <p class="pub-links"><a href="https://arxiv.org/abs/2607.16192">Paper</a><a href="https://motionforesight.github.io/">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">RSS 2026</p>
+            <div>
+              <h3><a href="https://soft-act.github.io/">Functional Force-Aware Retargeting from Virtual Human Demos to Soft Robot Policies</a></h3>
+              <p>Uksang Yoo, Mengjia Zhu, Evan Pezent, Jom Preechayasomboon, Jean Oh, Jeffrey Ichnowski, Amir Memar, Ben Abbatematteo, Homanga Bharadhwaj, Ashish Deshpande, Harsha Prahlad.</p>
+              <p class="pub-links"><a href="https://arxiv.org/pdf/2604.01224.pdf">Paper</a><a href="https://soft-act.github.io/">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">arXiv 2026</p>
+            <div>
+              <h3><a href="https://videomanip.github.io/">Dexterous Manipulation Policies from RGB Human Videos via 3D Hand-Object Trajectory Reconstruction</a></h3>
+              <p>Hongyi Chen, Tony Dong, Tiancheng Wu, Liquan Wang, Yash Jangir, Yaru Niu, Yufei Ye, Homanga Bharadhwaj, Zackory Erickson<sup>*</sup>, Jeffrey Ichnowski<sup>*</sup>.</p>
+              <p class="pub-links"><a href="https://arxiv.org/pdf/2602.09013.pdf">Paper</a><a href="https://videomanip.github.io/">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ECCV 2026</p>
+            <div>
+              <h3><a href="https://objectforesight.github.io/">ObjectForesight: Predicting Future 3D Object Trajectories from Human Videos</a></h3>
+              <p>Rustin Soraki, Homanga Bharadhwaj<sup>*</sup>, Ali Farhadi<sup>*</sup>, Roozbeh Mottaghi<sup>*</sup>.</p>
+              <p class="pub-links"><a href="https://arxiv.org/abs/2601.05237">Paper</a><a href="https://objectforesight.github.io/">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ECCV 2026</p>
+            <div>
+              <h3><a href="https://egowm.github.io/">Walk through Paintings: Ego-centric World Models from Internet Priors</a></h3>
+              <p>Anurag Bagchi, Zhipeng Bao, Homanga Bharadhwaj, Yu-Xiong Wang, Pavel Tokmakov, Martial Hebert.</p>
+              <p class="pub-links"><a href="https://arxiv.org/pdf/2601.15284">Paper</a><a href="https://egowm.github.io/">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ECCV 2026</p>
+            <div>
+              <h3><a href="https://egoman-project.github.io/">Flowing from Reasoning to Motion: Learning 3D Hand Trajectory Prediction from Egocentric Human Interaction Videos</a></h3>
+              <p>Mingfei Chen, Yifan Wang, Zhengqin Li, Homanga Bharadhwaj, Yujin Chen, Chuan Qin, Ziyi Kou, Yuan Tian, Eric Whitmire, Rajinder Sodhi, Hrvoje Benko, Eli Shlizerman, Yue Liu.</p>
+              <p class="pub-links"><a href="https://arxiv.org/pdf/2512.16907">Paper</a><a href="https://egoman-project.github.io/">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ICRA 2026</p>
+            <div>
+              <h3><a href="https://aina-robot.github.io/">Dexterity from Smart Lenses: Multi-Fingered Robot Manipulation with In-the-Wild Human Demonstrations</a></h3>
+              <p>Irmak Guzey, Haozhi Qi, Julen Urain, Changhao Wang, Jessica Yin, Krishna Bodduluri, Mike Lambeta, Lerrel Pinto, Akshara Rai, Jitendra Malik, Tingfan Wu, Akash Sharma, Homanga Bharadhwaj.</p>
+              <p class="pub-links"><a href="https://arxiv.org/pdf/2511.16661">Paper</a><a href="https://aina-robot.github.io/">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ICRA 2026</p>
+            <div>
+              <h3><a href="https://demodiffusion.github.io/">DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy</a></h3>
+              <p>Sungjae Park, Homanga Bharadhwaj, Shubham Tulsiani.</p>
+              <p class="pub-links"><a href="https://arxiv.org/pdf/2506.20668">Paper</a><a href="https://demodiffusion.github.io/">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">IROS 2026</p>
+            <div>
+              <h3><a href="https://jc-bao.github.io/spider-project/">SPIDER: Scalable Physics-Informed DExterous Retargeting</a></h3>
+              <p>Chaoyi Pan, Changhao Wang, Haozhi Qi, Zixi Liu, Homanga Bharadhwaj, Akash Sharma, Tingfan Wu, Guanya Shi, Jitendra Malik, Francois Hogan.</p>
+              <p class="pub-links"><a href="https://arxiv.org/abs/2511.09484">Paper</a><a href="https://jc-bao.github.io/spider-project/">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">IROS 2026</p>
+            <div>
+              <h3><a href="https://web2grasp.github.io/">Web2Grasp: Learning Functional Grasps from Web Images of Hand-Object Interactions</a></h3>
+              <p>Hongyi Chen, Yunchao Yao<sup>*</sup>, Yufei Ye, Homanga Bharadhwaj, Jiashun Wang, Shubham Tulsiani, Zackory Erickson, Jeffrey Ichnowski.</p>
+              <p class="pub-links"><a href="https://www.arxiv.org/abs/2505.05517">Paper</a><a href="https://web2grasp.github.io/">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">TMLR 2025</p>
+            <div>
+              <h3><a href="https://www.chenbao.tech/handsonvlm/">HandsOnVLM: Vision-Language Models for Hand-Object Interaction Prediction</a></h3>
+              <p>Chen Bao, Jiarui Xu, Xiaolong Wang<sup>*</sup>, Abhinav Gupta<sup>*</sup>, Homanga Bharadhwaj<sup>*</sup>.</p>
+              <p class="pub-links"><a href="https://www.chenbao.tech/handsonvlm/media/handsonvlm.pdf">Paper</a><a href="https://www.chenbao.tech/handsonvlm/">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">CoRL 2025</p>
+            <div>
+              <h3><a href="https://homangab.github.io/gen2act/">Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation</a></h3>
+              <p>Homanga Bharadhwaj, Debidatta Dwibedi, Abhinav Gupta, Shubham Tulsiani, Carl Doersch, Ted Xiao, Dhruv Shah, Fei Xia, Dorsa Sadigh, Sean Kirmani.</p>
+              <p class="pub-links"><a href="https://arxiv.org/pdf/2409.16283">Paper</a><a href="https://homangab.github.io/gen2act/">Project</a><a href="https://youtu.be/bZLiYzAKi8U">Video</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ECCV 2024</p>
+            <div>
+              <h3><a href="https://homangab.github.io/track2act/">Track2Act: Predicting Point Tracks from Internet Videos Enables Diverse Zero-shot Manipulation</a></h3>
+              <p>Homanga Bharadhwaj, Roozbeh Mottaghi<sup>*</sup>, Abhinav Gupta<sup>*</sup>, Shubham Tulsiani<sup>*</sup>.</p>
+              <p class="pub-links"><a href="https://homangab.github.io/track2act/track2act.pdf">Paper</a><a href="https://homangab.github.io/track2act/">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ICRA 2024</p>
+            <div>
+              <h3><a href="https://robopen.github.io/">RoboAgent: Towards Sample Efficient Robot Manipulation with Semantic Augmentations and Action Chunking</a></h3>
+              <p>Homanga Bharadhwaj<sup>*</sup>, Jay Vakil<sup>*</sup>, Mohit Sharma<sup>*</sup>, Abhinav Gupta, Shubham Tulsiani, Vikash Kumar.</p>
+              <p class="pub-links"><a href="https://robopen.github.io/media/roboagent.pdf">Paper</a><a href="https://robopen.github.io/">Project</a><a href="https://robopen.github.io/roboset/">Data</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ICRA 2024</p>
+            <div>
+              <h3><a href="https://homangab.github.io/hopman/">Towards Generalizable Zero-Shot Manipulation via Translating Human Interaction Plans</a></h3>
+              <p>Homanga Bharadhwaj, Abhinav Gupta<sup>*</sup>, Vikash Kumar<sup>*</sup>, Shubham Tulsiani<sup>*</sup>.</p>
+              <p class="pub-links"><a href="https://homangab.github.io/hopman/hopman_paper_appendix.pdf">Paper</a><a href="https://homangab.github.io/hopman/">Project</a><a href="https://www.youtube.com/watch?v=DGOmT-py8As">Video</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ICLR 2023</p>
+            <div>
+              <h3><a href="https://alignedlatentmodels.github.io/">Simplifying Model-based RL: Learning Representations, Latent-space Models and Policies with One Objective</a></h3>
+              <p>Raj Ghugare, Homanga Bharadhwaj, Benjamin Eysenbach, Sergey Levine, Ruslan Salakhutdinov.</p>
+              <p class="pub-links"><a href="https://arxiv.org/abs/2209.08466">Paper</a><a href="https://alignedlatentmodels.github.io/">Project</a><a href="https://openreview.net/forum?id=MQcmfgRxf7a">Reviews</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ICRA 2023</p>
+            <div>
+              <h3><a href="https://sites.google.com/andrew.cmu.edu/affordance-robotics/home">Visual Affordance Prediction for Guiding Robot Exploration</a></h3>
+              <p>Homanga Bharadhwaj, Abhinav Gupta, Shubham Tulsiani.</p>
+              <p class="pub-links"><a href="https://homangab.github.io/papers/affordance_exploration_icra.pdf">Paper</a><a href="https://sites.google.com/andrew.cmu.edu/affordance-robotics/home">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ICLR 2022</p>
+            <div>
+              <h3><a href="https://openreview.net/forum?id=DfUjyyRW90">Information Prioritization Through Empowerment in Visual Model-based RL</a></h3>
+              <p>Homanga Bharadhwaj, Mohammad Babaeizadeh, Dumitru Erhan, Sergey Levine.</p>
+              <p class="pub-links"><a href="https://arxiv.org/abs/2204.08585">Paper</a><a href="https://sites.google.com/view/information-empowerment">Project</a><a href="https://openreview.net/forum?id=DfUjyyRW90">Reviews</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">IROS 2021</p>
+            <div>
+              <h3><a href="https://www.pair.toronto.edu/lbw-kp/">Learning by Watching: Physical Imitation of Manipulation Skills from Human Videos</a></h3>
+              <p>Haoyu Xiong, Quanzhou Li, Yun-Chun Chen, Homanga Bharadhwaj, Samarth Sinha, Animesh Garg.</p>
+              <p class="pub-links"><a href="https://arxiv.org/pdf/2101.07241">Paper</a><a href="https://www.pair.toronto.edu/lbw-kp/">Project</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ICRA 2021</p>
+            <div>
+              <h3><a href="https://arxiv.org/pdf/2009.11997.pdf">Continual Model-Based Reinforcement Learning with Hypernetworks</a></h3>
+              <p>Philip Huang, Kevin (Cheng) Xie, Homanga Bharadhwaj, Florian Shkurti.</p>
+              <p class="pub-links"><a href="https://arxiv.org/pdf/2009.11997.pdf">Paper</a><a href="https://github.com/rvl-lab-utoronto/HyperCRL">Code</a><a href="https://www.youtube.com/watch?v=VJsdJu3H23c">Video</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ICLR 2021</p>
+            <div>
+              <h3><a href="https://arxiv.org/pdf/2010.14497.pdf">Conservative Safety Critics for Exploration</a></h3>
+              <p>Homanga Bharadhwaj, Aviral Kumar, Nicholas Rhinehart, Sergey Levine, Florian Shkurti, Animesh Garg.</p>
+              <p class="pub-links"><a href="https://arxiv.org/pdf/2010.14497.pdf">Paper</a><a href="https://sites.google.com/view/conservative-safety-critics/home">Project</a><a href="https://openreview.net/forum?id=iaO86DUuKi">Reviews</a></p>
+            </div>
+          </article>
+          <article class="publication">
+            <p class="pub-year">ICLR 2021</p>
+            <div>
+              <h3><a href="https://sites.google.com/view/latent-skill-planning/">Latent Skill Exploration for Planning and Transfer</a></h3>
+              <p>Kevin (Cheng) Xie<sup>*</sup>, Homanga Bharadhwaj<sup>*</sup>, Danijar Hafner, Animesh Garg, Florian Shkurti.</p>
+              <p class="pub-links"><a href="https://sites.google.com/view/latent-skill-planning/">Paper</a><a href="https://sites.google.com/view/latent-skill-planning/">Project</a><a href="https://openreview.net/forum?id=jXe91kq3jAq">Reviews</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section news-section" id="news" aria-labelledby="news-heading">
+        <div class="section-heading compact">
+          <p class="eyebrow section-title" id="news-heading">News</p>
+        </div>
+
+        <div class="news-list single-news">
+          <article class="news-item">
+            <time datetime="2026-08">August 2026</time>
+            <p>B<sup>3</sup> Lab website is launched.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section join-section" id="join" aria-labelledby="join-title">
+        <div class="join-intro">
+          <p class="eyebrow">Contact Us</p>
+          <h2 id="join-title">Thank you for your interest in our lab.</h2>
+          <p class="contact-lead">
+            For research-related inquiries, please reach out to
+            <a href="https://www.cs.jhu.edu/faculty/homanga-bharadhwaj/"><strong>Prof. Homanga Bharadhwaj</strong></a>.
+          </p>
+        </div>
+
+        <article class="join-form-card" aria-labelledby="join-form-title">
+          <div class="form-card-header">
+            <span class="form-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M7 3.5h8.5L19 7v13.5H7z"></path>
+                <path d="M15.5 3.5V7H19M10 11h6m-6 3h6m-6 3h4"></path>
+              </svg>
+            </span>
+            <div>
+              <p class="small-label">Joining B<sup>3</sup></p>
+              <h3 id="join-form-title">Information for prospective lab members and visitors</h3>
+            </div>
+          </div>
+
+          <div class="contact-options">
+            <section class="contact-option">
+              <p class="contact-number">01</p>
+              <div>
+                <h4>Prospective PhD Students</h4>
+                <p>
+                  We will consider new PhD students each year. Please apply through the
+                  <a href="https://www.cs.jhu.edu/academic-programs/graduate-studies/phd-program/phd-program-admissions/">Johns Hopkins Computer Science PhD admissions page</a>
+                  and mention your interest in working with Prof. Homanga Bharadhwaj. We are unable
+                  to reply to individual admissions emails before decisions are released.
+                </p>
+              </div>
+            </section>
+
+            <section class="contact-option">
+              <p class="contact-number">02</p>
+              <div>
+                <h4>Prospective Postdocs</h4>
+                <p>
+                  If you are interested in a postdoctoral position, please submit the lab interest
+                  form below and also email Prof. Homanga Bharadhwaj with a brief note.
+                </p>
+              </div>
+            </section>
+
+            <section class="contact-option">
+              <p class="contact-number">03</p>
+              <div>
+                <h4>JHU Undergraduate or Master&rsquo;s Students</h4>
+                <p>
+                  Current or admitted Johns Hopkins undergraduate and master&rsquo;s students interested
+                  in research, independent study, or thesis opportunities should submit the lab
+                  interest form below.
+                </p>
+              </div>
+            </section>
+
+            <section class="contact-option">
+              <p class="contact-number">04</p>
+              <div>
+                <h4>Prospective Visitors</h4>
+                <p>
+                  If you are not a current Johns Hopkins student and are interested in a short-term
+                  research visit, please submit the lab interest form below.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <a class="button form-button" href="#join-form-status" data-join-form-link aria-disabled="true">
+            Open the lab interest form
+            <span aria-hidden="true">&#8599;</span>
+          </a>
+          <p class="form-status" id="join-form-status" data-join-form-status role="status">
+            The Google Form link will appear here when it is added to the site configuration.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p>Hopkins Brains Bots and Behavior Lab (B<sup>3</sup>)</p>
+        <p>Learning from human data for embodied intelligence.</p>
+      </div>
+      <a href="https://www.jhu.edu/" aria-label="Johns Hopkins University">
+        <img src="assets/jhu-affiliation.svg" alt="Johns Hopkins University Computer Science">
+      </a>
+    </footer>
+
+    <script src="vendor/three.global.js?v=20260607"></script>
+    <script src="script.js?v=20260822-join-form"></script>
+  </body>
+</html>
