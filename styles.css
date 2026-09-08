@@ -284,12 +284,11 @@ a {
 }
 
 .jhu-wordmark {
-  position: absolute;
-  left: 50%;
-  top: 50%;
   display: grid;
   gap: 0;
-  min-width: 210px;
+  flex: 0 0 auto;
+  margin: 0 auto;
+  padding: 0 24px;
   color: currentColor;
   font-size: 0.78rem;
   font-weight: 800;
@@ -297,7 +296,7 @@ a {
   line-height: 1.18;
   text-align: center;
   text-transform: uppercase;
-  transform: translate(-50%, -50%);
+  white-space: nowrap;
 }
 
 .jhu-wordmark strong {
@@ -1348,7 +1347,7 @@ h3 {
   height: auto;
 }
 
-@media (max-width: 1320px) {
+@media (min-width: 1161px) and (max-width: 1380px) {
   .jhu-wordmark {
     display: none;
   }
